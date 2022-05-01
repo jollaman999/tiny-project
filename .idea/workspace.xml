@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fef6bf7-3cb2-455e-a4a5-075d0b9ee001" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/eta/space/video/EncryptorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/eta/space/video/DatasourceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/eta/space/video/VideoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/eta/space/video/VideoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,30 @@
     &quot;spring.configuration.checksum&quot;: &quot;3241ca6184e7e06d7e2313367e60913a&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.VideoApplication (1)">
+  <component name="RunManager" selected="Gradle.DatasourceTests.hikariConnectionPoolIsConfigured">
+    <configuration name="DatasourceTests.hikariConnectionPoolIsConfigured" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.eta.space.video.DatasourceTests.hikariConnectionPoolIsConfigured&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="EncryptorTests.encryptionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +118,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.eta.space.video.EncryptorTests.encryptionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HikariIntegrationTest.hikariConnectionPoolIsConfigured" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.eta.space.video.HikariIntegrationTest.hikariConnectionPoolIsConfigured&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,13 +190,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.DatasourceTests.hikariConnectionPoolIsConfigured" />
       <item itemvalue="Gradle.EncryptorTests.encryptionTest" />
+      <item itemvalue="Gradle.HikariIntegrationTest.hikariConnectionPoolIsConfigured" />
       <item itemvalue="Gradle.VideoApplicationTests.encryptionTest" />
       <item itemvalue="Spring Boot.VideoApplication" />
       <item itemvalue="Spring Boot.VideoApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DatasourceTests.hikariConnectionPoolIsConfigured" />
+        <item itemvalue="Gradle.HikariIntegrationTest.hikariConnectionPoolIsConfigured" />
         <item itemvalue="Gradle.EncryptorTests.encryptionTest" />
         <item itemvalue="Gradle.VideoApplicationTests.encryptionTest" />
       </list>
@@ -177,7 +222,7 @@
       <workItem from="1651304482631" duration="4263000" />
       <workItem from="1651308839916" duration="3025000" />
       <workItem from="1651330822763" duration="3552000" />
-      <workItem from="1651382461324" duration="1513000" />
+      <workItem from="1651382461324" duration="13192000" />
     </task>
     <servers />
   </component>

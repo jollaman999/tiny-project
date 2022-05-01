@@ -3,12 +3,24 @@ spring:
     properties:
       hibernate:
         hbm2ddl.auto: update
+        show_sql: true
+        format_sql: true
+
 
   datasource:
+    hikari:
+      maximumPoolSize: 20
+      minimumIdle: 10
+      maxLifetime: 300000
+      idleTimeout: 10000
+      validationTimeout: 30000
+      connectionTimeout: 10000
+      connectionTestQuery: SELECT 1
+
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/eta
     username: ENC(i3AoPyNIng8DzKRH+3CzfGm5NIkEihW+d23M0waHSyA=)
     password: ENC(MyFH+jo/oKU/u+mCg1o4Q7PEwFwuvtAGht+PqOMuPsM=)
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 jasypt:
   encryptor:
